@@ -33,7 +33,7 @@ $ cd bdr-api-rest
 $ composer install
 $ cp .env.ini.example .env.ini
 ```
-- Criar a base de dados e configurar no arquivo .env.ini as respectivas informações de acesso.
+- Criar a base de dados e configurar no arquivo .env.ini as respectivas informações de acesso. O arquivo task-list.sql na raíz do projeto deve ser utilizado.
 
 
 ### Utilização pelo Painel
