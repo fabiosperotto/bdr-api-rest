@@ -1,5 +1,5 @@
 ## API Rest com PHP
-Este projeto foi desenvolvido como solução do exercício 4 para a prova fornecida pela BDR Talentos. O objetivo foi resolver o sistema em menos de 24 horas. Os demais exercícios estão em [https://github.com/fabiosperotto/prova-analista-bdr](https://github.com/fabiosperotto/prova-analista-bdr)
+Este projeto foi desenvolvido como solução do exercício 4 para a prova fornecida pela BDR Talentos. O objetivo foi resolver o sistema em menos de 24 horas. Os demais exercícios estão em [https://github.com/fabiosperotto/prova-analista-bdr](https://github.com/fabiosperotto/prova-analista-bdr). Somados os dois repositórios, o tempo médio de desenvolvimento foi de 17 horas.
 
 ### Requisitos
 1. PHP versão 5.3.0
@@ -37,6 +37,9 @@ $ cp .env.ini.example .env.ini
 
 
 ### Utilização pelo Painel
+
+![Painel](public/assets/img/painel.png)
+
 - Acesso ocorre pela URL [http://localhost/tasks-api/tarefas](http://localhost/tasks-api/tarefas)
 - Pelo painel responsivo, são disponibilizadas a inserção, exclusão e ordenação das tarefas. Mensagens de sucesso/erro indicam resultado das operações.
 - As ordenações das tarefas são salvas automaticamente, sem mensagem de retorno.

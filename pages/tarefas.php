@@ -8,8 +8,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>      
-        Dashboard
-        <small>Control panel</small>
+        Tarefas
+        <small>Painel de Controle</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="javascript:;"><i class="fa fa-tasks"></i> Home</a></li>

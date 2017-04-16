@@ -7,7 +7,7 @@
           <img src="public/assets/dist/img/eu160.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>Fabio Aiub Sperotto</p>
         </div>
       </div>     
       <!-- sidebar menu: : style can be found in sidebar.less -->
