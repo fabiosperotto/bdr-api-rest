@@ -43,7 +43,7 @@ $ cp .env.ini.example .env.ini
 
 
 ### Utilização pela API
-A URL de acesso: [http://localhost/tasks-api/api/v1/tarefas/](http://localhost/tasks-api/api/v1/tarefas/). Para cada requisição, deve ser enviado um token pelo cabeçalho HTTP no atributo "Authorization". Um exemplo do formato pode ser visto abaixo para o verbo GET:
+A URL de acesso: [http://localhost/tasks-api/api/v1/tarefas/](http://localhost/tasks-api/api/v1/tarefas/). Para cada requisição, deve ser enviado um token (hash em sha1) pelo cabeçalho do HTTP no atributo "Authorization". Este token será confrontado com a base de dados para validar sua autorização. Um exemplo do formato pode ser visto abaixo para o verbo GET:
 ```bash
 GET /tasks-api/api/v1/tarefas HTTP/1.1
 Host: localhost
@@ -55,9 +55,10 @@ Os verbos REST disponíveis nesta aplicação são o GET, DELETE e POST, sendo q
 
 #### Exemplos
 - GET (todos os registros): http://localhost/tasks-api/api/v1/tarefas
-- POST: http://localhost/tasks-api/api/v1/tarefas
+- POST (informe via post titulo e descrição): http://localhost/tasks-api/api/v1/tarefas
 - DELETE: http://localhost/tasks-api/api/v1/tarefas/50
 - POST (substitui PUT, para update): http://localhost/tasks-api/api/v1/tarefas/50
+- Exemplo de requisição via cURL pode ser verificado em /public/exemplo-requisicao.php
 
 ### Melhorias necessárias
 - Refatorar a arquitetura de rotas e respostas da API.
