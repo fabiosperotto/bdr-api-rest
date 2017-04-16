@@ -1,5 +1,5 @@
 ## API Rest com PHP
-Este projeto foi desenvolvido como solução do exercício 4 para a prova fornecida pela BDR Talentos para ser resolvida em menos de 24 horas. Os demais exercícios estão em [https://github.com/fabiosperotto/prova-analista-bdr](https://github.com/fabiosperotto/prova-analista-bdr)
+Este projeto foi desenvolvido como solução do exercício 4 para a prova fornecida pela BDR Talentos. O objetivo foi resolver o sistema em menos de 24 horas. Os demais exercícios estão em [https://github.com/fabiosperotto/prova-analista-bdr](https://github.com/fabiosperotto/prova-analista-bdr)
 
 ### Requisitos
 1. PHP versão 5.3.0
@@ -28,6 +28,8 @@ Este projeto foi desenvolvido como solução do exercício 4 para a prova fornec
 
 ### Instalação
 ```bash
+$ git clone https://github.com/fabiosperotto/bdr-api-rest.git
+$ cd bdr-api-rest
 $ composer install
 $ cp .env.ini.example .env.ini
 ```
