@@ -1,0 +1,20 @@
+{	
+	"name": "fsperotto/task-lists",
+    "description": "Sistema de Tarefas - API Rest e Painel de usuário",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Aiub Sperotto",
+            "email": "fabio.aiub@gmail.com"
+        }
+    ],
+    "require":{
+    	"php": ">=5.3"
+	},   
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "DataBase\\": "database"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+Options -MultiViews
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?rota=$1
+RewriteRule ^([a-zA-Z0-9]+)/$ index.php?rota=$1
+
+RewriteRule ^tarefas/([^/\.]+)/?$ index.php?rota=tarefas&op=$1
+
+RewriteRule ^tarefas/enviar index.php?rota=tarefas&op=enviar [QSA,NC,P]
+RewriteRule ^tarefas/ordenar index.php?rota=tarefas&op=ordenar [QSA,NC,P]
+RewriteRule ^tarefas/excluir index.php?rota=tarefas&op=excluir [QSA,NC,P]
+
+
+RewriteRule ^api/v1/(.*)$ api.php?request=$1 [QSA,NC,L]
